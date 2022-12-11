@@ -1,0 +1,13 @@
+{
+  "name": "superhero-game-server",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.17.3"
+  }
+}

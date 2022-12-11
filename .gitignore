@@ -1,0 +1,9 @@
+# Directories
+project-files/superhero-game-server/node_modules
+project-files/superhero-game-ui/node_modules
+project-files/superhero-game-ui/dist
+
+# Lockfile
+project-files/superhero-game-ui/package-lock.json
+
+
