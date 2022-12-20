@@ -34,7 +34,7 @@ export const Ul = styled('ul')`
 
 export const ListOfCards = (cards: Superhero[]) => (
 		<Ul data-testid="list-of-cards">
-			{Object.values(cards).map((item, index) => (
+			{cards.map((item, index) => (
 				<li key={item.name + '-' + index}>
 					<div>name: {item.name}</div>
 					<div>attack: {item.attackScore}</div>
